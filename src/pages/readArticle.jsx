@@ -50,7 +50,7 @@ const ReadArticle = () => {
 				<meta property="og:image" content={article().image} />
 				<meta
 					property="og:url"
-					content={`https://shehzad-portfolio.vercel.app/article/${slug
+					content={`https://shehzad-portfolio-fe.vercel.app/article/${slug
 						.toLowerCase()
 						.replace(/:/g, "")
 						.replace(/ /g, "_")}`}
